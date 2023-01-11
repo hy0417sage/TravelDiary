@@ -5,13 +5,10 @@ import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.TextView
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
-import com.hy0417sage.traveldiary.MainActivity
-import com.hy0417sage.traveldiary.databinding.FragmentHomeBinding
+import com.hy0417sage.traveldiary.ui.MainActivity
 import com.hy0417sage.traveldiary.databinding.FragmentMapBinding
-import com.hy0417sage.traveldiary.ui.home.HomeViewModel
 
 class MapFragment : Fragment() {
 
@@ -39,7 +36,6 @@ class MapFragment : Fragment() {
         val mapViewModel =
             ViewModelProvider(this)[MapViewModel::class.java]
         mapViewModel.text.observe(viewLifecycleOwner) {
-            binding.textMap.text = it
         }
     }
 

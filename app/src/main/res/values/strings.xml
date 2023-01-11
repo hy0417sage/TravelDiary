@@ -1,5 +1,6 @@
 <resources>
     <string name="app_name">TravelDiary</string>
-    <string name="title_home">Home</string>
     <string name="title_map">Map</string>
+    <string name="title_diary">Diary</string>
+    <string name="title_travel_diary">Travel Diary</string>
 </resources>

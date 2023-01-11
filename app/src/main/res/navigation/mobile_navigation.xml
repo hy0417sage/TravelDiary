@@ -8,7 +8,7 @@
     <fragment
         android:id="@+id/navigation_home"
         android:name="com.hy0417sage.traveldiary.ui.home.HomeFragment"
-        android:label="@string/title_home"
+        android:label="@string/title_travel_diary"
         tools:layout="@layout/fragment_home" />
 
     <fragment
